@@ -1,13 +1,12 @@
 :root{
-  --cor-fundo: #01080E ;
+  --cor-fundo: #01080E;
   --cor-principal: #0B0D20 ;
-  --cor-secundaria: #212333; 
+  --cor-secundaria: #212333;
   --cor-destaque: #2BDEFD;
   --cor-texto: #D7F9FF;
-
 }
 
-body {
+body{
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
   display: flex;
@@ -28,7 +27,7 @@ h1{
   color: var(--cor-destaque);
 }
 
-button {
+button{
   background-color: var(--cor-secundaria);
   color: var(--cor-texto);
   border: none;
@@ -40,4 +39,8 @@ button {
 button:hover{
   background-color: var(--cor-destaque);
   color: var(--cor-principal);
+}
+
+.caixa-perguntas{
+  padding-bottom: 10px;
 }
