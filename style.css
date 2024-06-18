@@ -26,6 +26,9 @@ body{
 h1{
   color: var(--cor-destaque);
 }
+.caixa-perguntas{
+  padding-bottom: 10px;
+}
 
 button{
   background-color: var(--cor-secundaria);
@@ -41,6 +44,3 @@ button:hover{
   color: var(--cor-principal);
 }
 
-.caixa-perguntas{
-  padding-bottom: 10px;
-}
