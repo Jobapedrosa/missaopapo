@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "Como Você Acredita que Podemos Combater o Racismo na Sociedade?",
         alternativas: [           
             {
                 texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
